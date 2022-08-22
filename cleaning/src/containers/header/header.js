@@ -1,6 +1,8 @@
 import './header.css';
 import Dots from '../../images/dots.svg';
 import BackgroundPicture from '../../images/clean-room.png';
+import MobileDots from '../../images/mobile-dots.svg';
+import MobileBackgroundPicture from '../../images/mobile-clean-room.png';
 
 function Header() {
   return (
@@ -17,6 +19,8 @@ function Header() {
         </div>
         <img src={Dots} alt="Dots" className="dots"/>
         <img src={BackgroundPicture} alt="clean room" className="background-picture"/>
+        <img src={MobileDots} alt="Dots" className="mobile-dots"/>
+        <img src={MobileBackgroundPicture} alt="clean room" className="mobile-background-picture"/>
       </div>
     </div>
   );

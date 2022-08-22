@@ -40,6 +40,7 @@
     width: auto;
     margin-top: auto;
     margin-bottom: auto;
+    display: flex;
 }
 
 .about-icon-logo img {
@@ -47,125 +48,118 @@
 }
 
 @media (max-width: 1100px) {
+
+    .about-content {
+        padding-top: 6%;
+    }
+
+    .about-text-container h1 {
+        font-size: 3rem;
+        text-align: left;
+        color: #063A88;
+    }
+    
+    .about-text-container h2 {
+        font-size: 2rem;
+        text-align: left;
+        color: #66D0DA;
+    }
+    
+    .about-text-container p {
+        font-size: 1.3rem;
+        margin-top: 5%;
+        text-align: left;
+        width: 80%;
+    }
+
+    .about-icon-logo img {
+        width: 320px;
+    }
     
 
-    .about-text-logo {
+}
+
+@media (max-width: 900px) {
+    
+    .about-content {
         display: inline;
     }
 
-    .about-content {
-        padding-top: 12%;
-    }
-
-
-    .orange-bottom-design {
-        display: none;
-    }
-
-    .mobile-orange-bottom-design {
-        width: 90%;
-        position: absolute;
-        display: block;
-        left: 0;
-        top: 0;
-    }
-
-    .vertical-dark-logo {
-        display: none;
-    }
-
-    .horizontal-dark-logo {
-        position: relative;
-        z-index: 9;
-        width: 60%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 6%;
-    }
-
-    .about-text {
-        width: 80%;
-        font-size: 1.5rem;
-        margin-left: auto;
-        margin-right: auto;
+    .about-text-container h1 {
+        font-size: 3.5rem;
+        text-align: left;
+        color: #063A88;
     }
     
+    .about-text-container h2 {
+        font-size: 2.2rem;
+        text-align: left;
+        color: #66D0DA;
+    }
+    
+    .about-text-container p {
+        font-size: 1.2rem;
+        margin-top: 2%;
+        text-align: left;
+        width: 100%;
+    }
 
-    .about-content h2 {
-        font-size: 2rem;
-        padding-left: 5%;
-        padding-right: 5%;
+    .about-icon-logo {
+        width: auto;
         margin-top: 3%;
+        justify-content: center;
+    }
+
+    .about-icon-logo img {
+        width: 320px;
     }
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
 
-    .about-text {
-        width: 80%;
-        font-size: 1.3rem;
-        margin-left: auto;
-        margin-right: auto;
+    .about-text-container h1 {
+        font-size: 2.8rem;
     }
     
-
-    .about-content h2 {
-        font-size: 1.7rem;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top: 3%;
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .about-text {
-        width: 80%;
-        font-size: 1.1rem;
-        margin-left: auto;
-        margin-right: auto;
+    .about-text-container h2 {
+        font-size: 1.9rem;
     }
     
-
-    .about-content h2 {
-        font-size: 1.4rem;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top: 3%;
-    }
-
-    .service-areas {
+    .about-text-container p {
         font-size: 1.1rem;
-        margin-top: 0%;
-        justify-content: space-between;
+        margin-top: 2%;
     }
 
+    .about-icon-logo {
+        margin-top: 2%;
+    }
+
+    .about-icon-logo img {
+        width: 280px;
+    }
 }
 
 @media (max-width: 450px) {
 
-    .about-text {
-        width: 80%;
-        font-size: 1rem;
-        margin-left: auto;
-        margin-right: auto;
+    .about-text-container h1 {
+        font-size: 2rem;
     }
     
-
-    .about-content h2 {
+    .about-text-container h2 {
         font-size: 1.2rem;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top: 3%;
+    }
+    
+    .about-text-container p {
+        font-size: 0.9rem;
+        margin-top: 2%;
     }
 
-    .service-areas {
-        font-size: 0.8rem;
-        margin-top: 0%;
-        justify-content: space-between;
+    .about-icon-logo {
+        margin-top: 2%;
     }
 
+    .about-icon-logo img {
+        width: 200px;
+    }
 }

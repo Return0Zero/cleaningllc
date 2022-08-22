@@ -13,7 +13,6 @@ function About() {
         <div className='about-icon-logo'>
           <img src={LogoIcon} alt='Logo Icon' />
         </div>
-        
       </div>
     </div>
   );

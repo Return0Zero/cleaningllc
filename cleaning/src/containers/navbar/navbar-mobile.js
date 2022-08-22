@@ -1,7 +1,7 @@
 import './navbar-mobile.css';
 import LogoHorizontal from '../../images/horizontal-logo.png'
-import HamburgerMenu from '../../images/icons/hamburger.png'
-import CloseMenu from '../../images/icons/close.png'
+import HamburgerMenu from '../../images/icons/hamburger-black.png'
+import CloseMenu from '../../images/icons/close-black.png'
 import {useState} from 'react'
 import NavLinks from './navlinks'
 

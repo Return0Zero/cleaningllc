@@ -37,7 +37,27 @@
     color: #001C46;
 }
 
-.services-image-container img {
+.services-image-residential img {
+    width: 400px;
+}
+
+.services-image-commercial img {
+    width: 400px;
+}
+
+.mobile-services-image-commercial {
+    display: none;
+}
+
+.mobile-services-image-commercial img {
+    width: 400px;
+}
+
+.mobile-services-image-residential {
+    display: none;
+}
+
+.mobile-services-image-residential img {
     width: 400px;
 }
 
@@ -58,40 +78,133 @@
     font-weight: 400;
 }
 
-@media (max-width: 1650px) {
-
-    
-}
-
-@media (max-width: 1450px) {
-
-    
-}
-
 @media (max-width: 1150px) {
 
+    .services-title h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #001C46;
+    }
+    
+    .services-title h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #001C46;
+    }
+    
+    .cleaning-services {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        justify-content: center;
+    }
+    
+    .cleaning-services h1 {
+        color: #001C46;
+    }
+
+    .services-image-residential {
+        display: none;
+    }
+
+    .mobile-services-image-residential {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4%;
+    }
+
+    .services-image-commercial {
+        display: none;
+    }
+
+    .mobile-services-image-commercial {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4%;
+    }
+    
+    .services-image-container img {
+        width: 400px;
+    }
+    
+    .cleaning-services-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0%;
+    }
+    
+    .cleaning-services-text h1{
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 2%;
+    }
+    
+    .cleaning-services-text p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
     
 }
 
-@media (max-width: 900px) {
+@media (max-width: 750px) {
 
+    .services-title h1 {
+        font-size: 2.2rem;
+    }
+    
+    .services-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .cleaning-services-text h1{
+        font-size: 1.8rem;
+    }
+    
+    .cleaning-services-text p{
+        font-size: 1.2rem;
+    }
+
+    .mobile-services-image-commercial img {
+        width: 320px;
+    }
+
+    .mobile-services-image-residential img {
+        width: 320px;
+    }
     
 }
 
-@media (max-width: 775px) {
-
-    
-}
-
-@media (max-width: 650px) {
-
-    
-}
 
 @media (max-width: 550px) {
 
+    .services-title h1 {
+        font-size: 2rem;
+    }
     
+    .services-title h2 {
+        font-size: 1.2rem;
+    }
 
+    .cleaning-services-text h1{
+        font-size: 1.6rem;
+    }
+    
+    .cleaning-services-text p{
+        font-size: 1rem;
+    }
+
+    .mobile-services-image-commercial img {
+        width: 280px;
+    }
+
+    .mobile-services-image-residential img {
+        width: 280px;
+    }
+    
 }
 
 
