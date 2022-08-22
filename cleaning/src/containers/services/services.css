@@ -1,0 +1,100 @@
+.services-container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-content {
+    margin-bottom: 10%;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.services-title {
+    font-family: 'Lora', serif;
+}
+
+.services-title h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #001C46;
+}
+
+.services-title h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #001C46;
+}
+
+.cleaning-services {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.cleaning-services h1 {
+    color: #001C46;
+}
+
+.services-image-container img {
+    width: 400px;
+}
+
+.cleaning-services-text {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cleaning-services-text h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.cleaning-services-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1650px) {
+
+    
+}
+
+@media (max-width: 1450px) {
+
+    
+}
+
+@media (max-width: 1150px) {
+
+    
+}
+
+@media (max-width: 900px) {
+
+    
+}
+
+@media (max-width: 775px) {
+
+    
+}
+
+@media (max-width: 650px) {
+
+    
+}
+
+@media (max-width: 550px) {
+
+    
+
+}
+
+
+@media (max-width: 350px) {
+
+}

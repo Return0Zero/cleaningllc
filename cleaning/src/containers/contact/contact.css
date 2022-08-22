@@ -1,0 +1,110 @@
+.contact-container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #001C46;
+    position: relative;
+}
+
+.blue-background {
+    position: absolute;
+    max-width: 1600px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.contact-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 5%;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+
+.contact-content {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.contact-text {
+    display: flex;
+    margin-left: 15%;
+}
+
+.contact-text h2{
+    margin-bottom: 3%;
+    font-weight: 500;
+}
+
+.contact-call-now {
+    margin-left: 30%;
+}
+
+.contact-icon {
+    width: 50px;
+}
+
+.email-information {
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.email-information {
+    color: black;
+    text-decoration: none;
+}
+
+.email-information:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.email-information img {
+    margin-right: 4%;
+}
+
+.social-media-container {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.social-media-container h2{
+    margin-bottom: 3%;
+    font-weight: 500;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.social-media-icons a {
+    margin-left: 300px;
+}
+
+
+@media (max-width: 1300px) {
+    
+    
+}
+
+@media (max-width: 650px) {
+    
+
+}
+
+@media (max-width: 450px) {
+    
+
+}

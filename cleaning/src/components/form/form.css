@@ -1,0 +1,194 @@
+.form-background {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #d2e5ff;
+    padding-bottom: 5%;
+}
+
+.form--container {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #CAD2DD;
+    padding: 4% 6% 2% 6%;
+    border-radius: 35px;
+    backdrop-filter: blur(3px);
+}
+
+.form--container textarea {
+    font-family: 'Poppins', sans-serif;
+    min-height: 40px;
+}
+
+.form--container h1 {
+    margin-bottom: 5%;
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form--container label {
+    font-size: 1.2rem;
+}
+
+.form--container .select {
+    border-radius: 50px;
+    font-size: 1.1rem;
+    backdrop-filter: blur(3px);
+    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
+    width: 142%;
+    padding: 1% 5% 1% 5%;
+    background: white;
+    margin-bottom: 8%;
+}
+
+
+
+.form--container .input {
+    border-radius: 50px;
+    font-size: 1.1rem;
+    backdrop-filter: blur(3px);
+    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 1% 5% 1% 5%;
+    background: white;
+    margin-bottom: 4%;
+}
+
+.form--container .input-button {
+    border-radius: 50px;
+    backdrop-filter: blur(3px);
+    border-top: 2px solid rgba(255, 255, 255, 0.7);
+    border-left: 2px solid rgba(255, 255, 255, 0.7);
+    width: 30%;
+    background: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-button:active {
+    transform: scale(0.9);
+}
+
+.form-double-input {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.form-four-input {
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.fouth-input {
+    border-radius: 50px;
+    font-size: 1rem;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
+    padding: 1% 0% 1% 4%;
+    background: white;
+    margin-bottom: 8%;
+    flex: 1 1 0px;
+}
+
+.form-select-input {
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.input-select {
+    width: 43%;
+    margin-left: auto;
+}
+
+.form-radio-type {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+
+@media (max-width: 1300px) {
+    .form--container {
+        margin-top: 8%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input-button {
+        font-size: 1.2rem;
+    }
+    
+
+}
+
+@media (max-width: 650px) {
+    
+    .form--container h1 {
+        margin-bottom: 5%;
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    .input {
+        font-size: 1rem;
+    }
+
+    .input-button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .input-button {
+        font-size: 1em;
+    }
+
+    .form--container h1 {
+        margin-bottom: 10%;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .input {
+        font-size: 1rem;
+        margin-bottom: 12%;
+    }
+
+    .input-button {
+        font-size: 1em;
+        margin-bottom: 8%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .input-button {
+        font-size: 1em;
+    }
+
+    .form--container h1 {
+        margin-bottom: 10%;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .input {
+        font-size: 0.9rem;
+        margin-bottom: 12%;
+    }
+
+    .input-button {
+        font-size: 0.9em;
+    }
+}
