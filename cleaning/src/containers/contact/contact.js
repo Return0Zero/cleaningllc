@@ -16,9 +16,9 @@ function Contact() {
         <div className="contact-text">
           <div className="contact-email-now">
             <h2>Email Us:</h2>
-            <a href='mailto: knightmultiservices@gmail.com' className='email-information'>
+            <a href='mailto: raffocleaning@gmail.com' className='email-information'>
               <img src={EmailIcon} alt="Email Icon" className="contact-icon"/>
-              <p>knightmultiservices@gmail.com</p>
+              <p>raffocleaning@gmail.com</p>
             </a>
           </div>
           <div className="contact-call-now">

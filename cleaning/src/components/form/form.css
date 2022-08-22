@@ -268,20 +268,20 @@
     }
     
     .form--container label {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     
     .form--container .select {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         width: 80%;
     }
     
     .form--container .input {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     
     .form--container .input-button {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     
 }
