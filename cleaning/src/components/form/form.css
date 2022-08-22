@@ -90,6 +90,10 @@
     margin-bottom: 4%;
 }
 
+.form-four-input div {
+    width: 40%;
+}
+
 .fouth-input {
     border-radius: 50px;
     font-size: 1rem;
@@ -99,6 +103,7 @@
     background: white;
     margin-bottom: 8%;
     flex: 1 1 0px;
+    justify-content: space-evenly;
 }
 
 .form-select-input {
@@ -117,78 +122,166 @@
     margin-bottom: 4%;
 }
 
-@media (max-width: 1300px) {
-    .form--container {
-        margin-top: 8%;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .input-button {
-        font-size: 1.2rem;
-    }
+@media (max-width: 1400px) {
     
+    .form-four-input {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 4%;
+    }
 
+    .form-four-input div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-four-input input {
+        width: 90%;
+    }
+
+    .fouth-input {
+        border-radius: 50px;
+        font-size: 1rem;
+        border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+        border-left: 1.5px solid rgba(255, 255, 255, 0.7);
+        padding: 1% 0% 1% 4%;
+        background: white;
+        margin-bottom: 8%;
+        flex: 1 1 0px;
+        justify-content: space-evenly;
+    }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1200px) {
     
-    .form--container h1 {
-        margin-bottom: 5%;
-        font-size: 1.7rem;
-        font-weight: 600;
+    .form-four-input {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 4%;
     }
 
-    .input {
+    .form-four-input div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-four-input input {
+        width: 90%;
+    }
+
+    .fouth-input {
+        border-radius: 50px;
+        font-size: 1rem;
+        margin-bottom: 8%;
+        flex: 1 1 0px;
+        justify-content: space-evenly;
+    }
+
+    .form-double-input {
+        display: flex;
+        margin-bottom: 4%;
+    }
+
+    .form-double-input div{
+        width: 100%;
+    }
+
+    .form-double-input-phone {
+        margin-right: 5%;
+    }
+
+    .form--container h1 {
+        font-size: 1.8rem;
+    }
+    
+    .form--container label {
         font-size: 1rem;
     }
-
-    .input-button {
-        font-size: 1em;
+    
+    .form--container .select {
+        font-size: 1rem;
     }
+    
+    
+    
+    .form--container .input {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 750px) {
+
+    .form--container h1 {
+        font-size: 1.6rem;
+    }
+    
+    .form--container label {
+        font-size: 0.8rem;
+    }
+    
+    .form--container .select {
+        font-size: 0.8rem;
+    }
+
+    .form--container .input {
+        font-size: 0.8rem;
+    }
+    
+    .form--container .input-button {
+        font-size: 0.8rem;
+    }
+
 }
 
 @media (max-width: 550px) {
 
-    .input-button {
-        font-size: 1em;
-    }
-
     .form--container h1 {
-        margin-bottom: 10%;
-        font-size: 1.4rem;
-        font-weight: 600;
+        font-size: 1.6rem;
     }
-
-    .input {
-        font-size: 1rem;
-        margin-bottom: 12%;
+    
+    .form--container label {
+        font-size: 0.8rem;
     }
-
-    .input-button {
-        font-size: 1em;
-        margin-bottom: 8%;
+    
+    .form--container .select {
+        font-size: 0.8rem;
+        width: 80%;
     }
+    
+    .form--container .input {
+        font-size: 0.8rem;
+    }
+    
+    .form--container .input-button {
+        font-size: 0.8rem;
+    }
+    
 }
 
-@media (max-width: 450px) {
-
-    .input-button {
-        font-size: 1em;
-    }
+@media (max-width: 420px) {
 
     .form--container h1 {
-        margin-bottom: 10%;
-        font-size: 1.2rem;
-        font-weight: 600;
+        font-size: 1.4rem;
     }
-
-    .input {
-        font-size: 0.9rem;
-        margin-bottom: 12%;
+    
+    .form--container label {
+        font-size: 0.7rem;
     }
-
-    .input-button {
-        font-size: 0.9em;
+    
+    .form--container .select {
+        font-size: 0.7rem;
+        width: 80%;
     }
+    
+    .form--container .input {
+        font-size: 0.7rem;
+    }
+    
+    .form--container .input-button {
+        font-size: 0.7rem;
+    }
+    
 }

@@ -3,7 +3,7 @@ import './form.css';
 
 const Form = () => {
     return (
-        <form className='form-background' action="https://formsubmit.co/knightmultiservice@gmail.com" method="POST">
+        <form className='form-background' action="https://formsubmit.co/raffocleaning@gmail.com" method="POST">
             <div className='form--container'>
                 <h1>Tell Us About Your Project</h1>
                 <input type="hidden" name="_subject" value="Nuevo Correo!"></input>
@@ -16,25 +16,25 @@ const Form = () => {
                     <input className='input' type='email' placeholder='Email' name='email' required/>
                 </div>
                 <div className='form-double-input'>
-                    <div>
+                    <div className='form-double-input-phone'>
                         <label htmlFor="phone">Phone number*</label>
                         <input className='input' type='tel' placeholder='Phone' name='phone' required/>
                     </div>
                     <div>
-                        <label htmlFor="date">Approximate date of service</label>
+                        <label htmlFor="date">Date of service</label>
                         <input className='input' type='date' placeholder='Date' name='date'/>
                     </div>
                 </div>
                 <div className='form-select-input'>
-                    <div>
-                        <label htmlFor="phone">Property type*</label>
-                        <select className='select' type='tel' placeholder='Phone' name='phone'>
+                    <div className='form-four-input'>
+                        <label htmlFor="property">Property type*</label>
+                        <select className='select' type='tel' placeholder='Property' name='property'>
                             <option value="residential">Residential</option>
                             <option value="commercial">Commercial</option>
                         </select>
                     </div>
                     <div className='input-select'>
-                        <label htmlFor="size">Square Footage</label>
+                        <label htmlFor="size">Sq Footage</label>
                         <input className='input' type='number' placeholder='0' name='size'/>
                     </div>
                 </div>

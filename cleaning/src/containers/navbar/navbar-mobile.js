@@ -19,7 +19,7 @@ function NavbarMobile() {
   return (
     <div className="navbar-mobile-max-width">
       <div className="navbar-mobile-container">
-        <a to="/" className='link--title-logo'><img src={LogoHorizontal} alt='logo' className='logo'/></a>
+        <a href="#" className='link--title-logo'><img src={LogoHorizontal} alt='logo' className='logo'/></a>
         {open ? closeIcon : hamburgerIcon}
 
         {open && <NavLinks></NavLinks>}        

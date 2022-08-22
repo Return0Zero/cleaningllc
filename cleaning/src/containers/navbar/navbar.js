@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="navbar-max-width">
       <div className="navbar-container">
-        <a href="http://knightmultiservice.com/" className='link--title-logo'><img src={LogoHorizontal} alt='logo' className='logo'/></a>
+        <a href="#" className='link--title-logo'><img src={LogoHorizontal} alt='logo' className='logo'/></a>
         <div className='navbar-container-links'>
           <a href='#servicesID' className='link-services'><p>Services</p></a>
           <a href='#contactID' className='link-contact'><p>Contact Us</p></a>

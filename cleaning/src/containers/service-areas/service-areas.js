@@ -5,7 +5,7 @@ function ServiceAreas() {
   return (
     <div className="service-areas-container" id='servicesID'>
       <div className="service-areas-content">
-          <div>
+          <div className="service-areas-text">
             <h1>Our Service Areas</h1>
             <p>Currently serving <span style={{fontWeight: 'bold'}}>Bluffton, SC</span> and the following areas:</p>
             <ul>

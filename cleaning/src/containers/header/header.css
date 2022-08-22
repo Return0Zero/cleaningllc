@@ -11,7 +11,7 @@
     padding-top: 8rem;
     max-width: 1600px;
     z-index: 9;
-    padding-bottom: 5rem;
+    padding-bottom: 5%;
     justify-content: right;
     margin-left: auto;
     margin-right: auto;
@@ -143,9 +143,14 @@
 
 
 @media (max-width: 900px) {
+    
+    .header-content {
+        padding-top: 10%;
+    }
+
     .mobile-dots {
         left: 14%;
-        top: 60%;
+        top: 65%;
         width: 100px;
     }
     
@@ -181,9 +186,12 @@
 
 @media (max-width: 650px) {
 
+    
+
+
     .mobile-dots {
         left: 14%;
-        top: 65%;
+        top: 72%;
         width: 75px;
     }
     
@@ -220,7 +228,7 @@
 
     .mobile-dots {
         left: 14%;
-        top: 63%;
+        top: 74%;
         width: 50px;
     }
     
@@ -257,12 +265,12 @@
 
     .mobile-dots {
         left: 14%;
-        top: 69%;
-        width: 50px;
+        top: 76%;
+        width: 45px;
     }
     
     .header-text {
-        padding-top: 6%;
+        padding-top: 4%;
         padding-bottom: 8.5%;
         top: 28%;
         left: 14%;
@@ -279,6 +287,41 @@
     
     .header-p {
         font-size: 0.8rem;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        width: 90%;
+    }
+
+    .header-button {
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 350px) {
+
+    .mobile-dots {
+        left: 14%;
+        top: 76%;
+        width: 35px;
+    }
+    
+    .header-text {
+        padding-top: 4%;
+        padding-bottom: 8.5%;
+        top: 25%;
+        left: 14%;
+        width: 65%;
+    }
+
+    .header-h1 {
+        font-size: 1.15rem;
+        font-family: 'Lora', serif;
+        font-weight: 600;
+        margin-bottom: 5%;
+    
+    }
+    
+    .header-p {
+        font-size: 0.7rem;
         margin-top: 5%;
         margin-bottom: 8%;
         width: 90%;

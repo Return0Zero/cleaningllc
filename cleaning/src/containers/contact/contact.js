@@ -4,15 +4,17 @@ import EmailIcon from '../../images/icons/email.svg'
 import FacebookIcon from '../../images/icons/facebook.svg'
 import InstagramIcon from '../../images/icons/instagram.svg'
 import Background from '../../images/background.svg'
+import MobileBackground from '../../images/mobile-background.svg'
 
 function Contact() {
   return (
     <div className="contact-container" id='contactID'>
       <img src={Background} alt="Blue Background" className='blue-background'/>
+      <img src={MobileBackground} alt="Blue Background" className='mobile-blue-background'/>
       <h1>Contact Us</h1>
       <div className="contact-content">
         <div className="contact-text">
-          <div>
+          <div className="contact-email-now">
             <h2>Email Us:</h2>
             <a href='mailto: knightmultiservices@gmail.com' className='email-information'>
               <img src={EmailIcon} alt="Email Icon" className="contact-icon"/>

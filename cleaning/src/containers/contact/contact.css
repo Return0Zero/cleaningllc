@@ -18,6 +18,19 @@
     z-index: -1;
 }
 
+.mobile-blue-background {
+    display: none;
+    position: absolute;
+    max-width: 1600px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    z-index: -1;
+}
+
 .contact-container h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -83,6 +96,7 @@
 .social-media-container h2{
     margin-bottom: 3%;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .social-media-icons {
@@ -94,17 +108,157 @@
 }
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1600px) {
+        
+    .contact-container h1 {
+        font-size: 2.5rem;
+        padding-top: 5%;
+    }
     
+    .contact-content {
+        font-size: 1.2rem;
+    }
     
+}
+
+@media (max-width: 1150px) {
+    
+    .contact-container h1 {
+        font-size: 2.2rem;
+        padding-top: 15%;
+    }
+    
+    .contact-content {
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+    
+    .contact-text {
+        display: inline;
+    }
+    
+    .contact-text h2{
+        margin-bottom: 2%;
+    }
+    
+    .contact-call-now {
+        margin-left: 15%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
+    .contact-email-now {
+        margin-left: 15%;
+    }
+    
+    .contact-icon {
+        width: 50px;
+    }
+    
+    .email-information {
+        margin-bottom: 5%;
+    }
+    
+
+    .social-media-icons a {
+        margin-left: 200px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    
+        
+    .blue-background {
+        display: none;
+    }
+    
+    .mobile-blue-background {
+        display: inline;
+    }
+    
+    .contact-container h1 {
+        font-size: 2.2rem;
+        padding-top: 15%;
+    }
+    
+    .contact-content {
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+    
+    .contact-icon {
+        width: 40px;
+    }
+
+    .social-media-icons a {
+        margin-left: 120px;
+    }
+
 }
 
 @media (max-width: 650px) {
     
+    .contact-container h1 {
+        font-size: 2rem;
+        padding-top: 15%;
+    }
+    
+    .contact-content {
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+    
+    .contact-icon {
+        width: 40px;
+    }
+
+    .social-media-icons a {
+        margin-left: 80px;
+    }
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     
+    .contact-container h1 {
+        font-size: 2rem;
+        padding-top: 15%;
+    }
+    
+    .contact-content {
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+    
+    .contact-icon {
+        width: 40px;
+    }
+
+    .social-media-icons a {
+        margin-left: 50px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .contact-container h1 {
+        font-size: 1.7rem;
+        padding-top: 15%;
+    }
+    
+    .contact-content {
+        font-size: 0.8rem;
+        margin-top: 5%;
+    }
+    
+    .contact-icon {
+        width: 35px;
+    }
+
+    .social-media-icons a {
+        margin-left: 35px;
+    }
 
 }
