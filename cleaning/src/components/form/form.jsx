@@ -3,7 +3,7 @@ import './form.css';
 
 const Form = () => {
     return (
-        <form className='form-background' action="https://formsubmit.co/raffocleaning@gmail.com" method="POST">
+        <form className='form-background' action="https://formsubmit.co/reliable7andaffordablecleaning@yahoo.com" method="POST">
             <div className='form--container'>
                 <h1>Tell Us About Your Project</h1>
                 <input type="hidden" name="_subject" value="Nuevo Correo!"></input>
@@ -78,7 +78,7 @@ const Form = () => {
                     </div>
                 </div>
                 <div>
-                    <label htmlFor="text">Tell us about your proyect</label>
+                    <label htmlFor="text">Tell us about your project</label>
                     <textarea className='input' type='text' placeholder='Text' name='text'></textarea>
                 </div>
                 <button  className='input-button' type='submit' required>Submit</button>
