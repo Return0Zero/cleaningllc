@@ -81,7 +81,7 @@ const Form = () => {
                     <label htmlFor="text">Tell us about your proyect</label>
                     <textarea className='input' type='text' placeholder='Text' name='text'></textarea>
                 </div>
-                <input className='input-button' type='submit' required/>
+                <button  className='input-button' type='submit' required>Submit</button>
             </div>
         </form>
     )
