@@ -107,6 +107,11 @@
     margin-left: 300px;
 }
 
+.contact-email-text-mobile {
+    display: none;
+}
+
+
 
 @media (max-width: 1600px) {
         
@@ -215,6 +220,14 @@
 
     .social-media-icons a {
         margin-left: 80px;
+    }
+
+    .contact-email-text {
+        display: none;
+    }
+
+    .contact-email-text-mobile {
+        display: inline;
     }
 
 }

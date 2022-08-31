@@ -18,7 +18,11 @@ function Contact() {
             <h2>Email Us:</h2>
             <a href='mailto: reliable7andaffordablecleaning@yahoo.com' className='email-information'>
               <img src={EmailIcon} alt="Email Icon" className="contact-icon"/>
-              <p>reliable7andaffordablecleaning@yahoo.com</p>
+              <p className='contact-email-text'>reliable7andaffordablecleaning@yahoo.com</p>
+              <div className='contact-email-text-mobile'>
+                <p>reliable7andaffordablecleaning</p>
+                <p>@yahoo.com</p>
+              </div>
             </a>
           </div>
           <div className="contact-call-now">
